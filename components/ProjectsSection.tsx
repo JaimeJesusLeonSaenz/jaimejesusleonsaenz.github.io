@@ -6,27 +6,19 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Starbucks Landing Page",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "This was a simple page that I made for practice. It's just a landing page, the menu buttons redirects to home. It only uses HTML and CSS",
+    image: "/951shots_so.png",
+    github: "https://github.com/JaimeJesusLeonSaenz/starbucks-landing-page.github-.io",
+    link: "https://jaimejesusleonsaenz.github.io/starbucks-landing-page.github-.io/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "QR Code Generator",
+    description: "QR Code Generator that uses qrcodeapi to call the links that the user inputs in the text box. It uses HTML, CSS and a little bit of JS.",
+    image: "/422shots_so.png",
+    github: "https://github.com/JaimeJesusLeonSaenz/generadorqr.github.io",
+    link: "https://jaimejesusleonsaenz.github.io/generadorqr.github.io/",
   },
 ]
 
@@ -35,7 +27,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-indigo-700 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">
